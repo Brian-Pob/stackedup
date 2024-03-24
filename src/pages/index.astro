@@ -1,16 +1,113 @@
 ---
-
+const title = "StackedUp";
+const description =
+  "Suggestions for ways to overcomplicate your web app based on your provided acronym.";
+import Form from "../components/Form.svelte";
 ---
 
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta
+      name="generator"
+      content={Astro.generator}
+      <link
+      rel="icon"
+      href="/favicon.ico"
+      sizes="48x48"
+    />
+    <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" />
+    <link rel="mask-icon" href="/mask-icon.svg" color="#FFFFFF" />
+    <meta name="theme-color" content="#1a1a1a" />
+
+    <meta property="title" content={title} />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dvivrw9ml/image/upload/c_fill,w_1200,h_630,g_auto/v1711313936/CleanShot_2024-03-24_at_16.58.36_q2qrk3.png"
+    />
+    <meta property="og:url" content="https://stackedup.brianmp.dev" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@brianmpdotdev" />
+    <meta property="twitter:domain" content="brianmp.dev" />
+    <meta property="twitter:url" content="https://stackedup.brianmp.dev" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta
+      name="twitter:image"
+      content="https://res.cloudinary.com/dvivrw9ml/image/upload/c_fill,w_1200,h_630,g_auto/v1711313936/CleanShot_2024-03-24_at_16.58.36_q2qrk3.png"
+    />
+    <meta name="twitter:image:alt" content={title} />
+    <meta name="twitter:creator" content="@brianmpdotdev" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+      @import url("https://unpkg.com/open-props@1.6.21/open-props.min.css");
+      @import url("https://unpkg.com/open-props@1.6.21/normalize.min.css");
+      @import url("https://unpkg.com/open-props@1.6.21/buttons.min.css");
+      :root {
+        --background: var(--gradient-9);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background: var(--gradient-8);
+        }
+      }
+
+      body {
+        font-family: "Inter", var(--font-sans);
+        background: var(--background);
+      }
+
+      a:hover {
+        outline: var(--size-0, 0.125rem) solid var(--blue-5, Highlight);
+        outline-offset: var(--size-1);
+        border-radius: var(--size-0, 0.125rem);
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        margin: 2rem auto;
+      }
+
+      main {
+        max-width: 80ch;
+        margin: 0 auto;
+        padding: 4rem 0;
+      }
+
+      li {
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1>World's first acronym-driven development tool.</h1>
+      <p>
+        Enter your tech stack acronym and we'll suggest technologies to help you
+        overcomplicate your app!
+      </p>
+
+      <Form client:load />
+
+    </main>
+  </body>
 </html>

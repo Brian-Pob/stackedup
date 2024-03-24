@@ -1,0 +1,263 @@
+[
+  {
+    "name": "11ty",
+    "desc": ""
+  },
+  {
+    "name": "alpinejs",
+    "desc": ""
+  },
+  {
+    "name": "astro",
+    "desc": ""
+  },
+  {
+    "name": "bun",
+    "desc": ""
+  },
+  {
+    "name": "cargo",
+    "desc": ""
+  },
+  {
+    "name": "deno",
+    "desc": ""
+  },
+  {
+    "name": "elysia",
+    "desc": ""
+  },
+  {
+    "name": "esbuild",
+    "desc": ""
+  },
+  {
+    "name": "express",
+    "desc": ""
+  },
+  {
+    "name": "fastify",
+    "desc": ""
+  },
+  {
+    "name": "firebase",
+    "desc": ""
+  },
+  {
+    "name": "flutter",
+    "desc": ""
+  },
+  {
+    "name": "flask",
+    "desc": ""
+  },
+  {
+    "name": "gatsby",
+    "desc": ""
+  },
+  {
+    "name": "go",
+    "desc": ""
+  },
+  {
+    "name": "graphql",
+    "desc": ""
+  },
+  {
+    "name": "hugo",
+    "desc": ""
+  },
+  {
+    "name": "ionic",
+    "desc": ""
+  },
+  {
+    "name": "java",
+    "desc": ""
+  },
+  {
+    "name": "javascript",
+    "desc": ""
+  },
+  {
+    "name": "jekyll",
+    "desc": ""
+  },
+  {
+    "name": "jquery",
+    "desc": ""
+  },
+  {
+    "name": "julia",
+    "desc": ""
+  },
+  {
+    "name": "kotlin",
+    "desc": ""
+  },
+  {
+    "name": "laravel",
+    "desc": ""
+  },
+  {
+    "name": "lua",
+    "desc": ""
+  },
+  {
+    "name": "maven",
+    "desc": ""
+  },
+  {
+    "name": "mongodb",
+    "desc": ""
+  },
+  {
+    "name": "next",
+    "desc": ""
+  },
+  {
+    "name": "node",
+    "desc": ""
+  },
+  {
+    "name": "nuxt",
+    "desc": ""
+  },
+  {
+    "name": "object oriented programming",
+    "desc": ""
+  },
+  {
+    "name": "objective-c",
+    "desc": ""
+  },
+  {
+    "name": "ocaml",
+    "desc": ""
+  },
+  {
+    "name": "openprops",
+    "desc": ""
+  },
+  {
+    "name": "perl",
+    "desc": ""
+  },
+  {
+    "name": "phoenix",
+    "desc": ""
+  },
+  {
+    "name": "php",
+    "desc": ""
+  },
+  {
+    "name": "python",
+    "desc": ""
+  },
+  {
+    "name": "quasar",
+    "desc": ""
+  },
+  {
+    "name": "qwik",
+    "desc": ""
+  },
+  {
+    "name": "rails",
+    "desc": ""
+  },
+  {
+    "name": "react",
+    "desc": ""
+  },
+  {
+    "name": "redwood",
+    "desc": ""
+  },
+  {
+    "name": "rust",
+    "desc": ""
+  },
+  {
+    "name": "sapper",
+    "desc": ""
+  },
+  {
+    "name": "solidjs",
+    "desc": ""
+  },
+  {
+    "name": "svelte",
+    "desc": ""
+  },
+  {
+    "name": "sveltekit",
+    "desc": ""
+  },
+
+  {
+    "name": "swift",
+    "desc": ""
+  },
+  {
+    "name": "tailwind",
+    "desc": ""
+  },
+  {
+    "name": "tursodb",
+    "desc": ""
+  },
+  {
+    "name": "typescript",
+    "desc": ""
+  },
+  {
+    "name": "unjs",
+    "desc": ""
+  },
+  {
+    "name": "unocss",
+    "desc": ""
+  },
+  {
+    "name": "vite",
+    "desc": ""
+  },
+  {
+    "name": "vue",
+    "desc": ""
+  },
+  {
+    "name": "webpack",
+    "desc": ""
+  },
+  {
+    "name": "xml",
+    "desc": ""
+  },
+  {
+    "name": "xstate",
+    "desc": ""
+  },
+  {
+    "name": "yarn",
+    "desc": ""
+  },
+  {
+    "name": "yew",
+    "desc": ""
+  },
+  {
+    "name": "zed",
+    "desc": ""
+  },
+  {
+    "name": "zig",
+    "desc": ""
+  },
+  {
+    "name": "zod",
+    "desc": ""
+  }
+]
