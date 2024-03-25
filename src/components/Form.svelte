@@ -9,19 +9,21 @@
   let acronym = "";
 
   async function handleSubmit(e) {
-    console.log("clicked");
-    console.log(acronym);
     stack = [];
 
     let techs = await fetch(`${window.location.href}techs.json`)
       .then((res) => res.json());
 
     for (const letter of acronym) {
-      const tech = selectRandom(
-        techs.filter((tech) => tech.name.startsWith(letter.toLowerCase())),
-      );
-      // techs.splice(techs.indexOf(tech), 1);
-      stack = [...stack, tech];
+      try {
+        const tech = selectRandom(
+          techs.filter((tech) => tech.name.startsWith(letter.toLowerCase())),
+        );
+        // techs.splice(techs.indexOf(tech), 1);
+        stack = [...stack, tech];
+      } catch (error) {
+        console.error(error);
+      }
     }
   }
 </script>
