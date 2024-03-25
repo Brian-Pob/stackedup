@@ -3,6 +3,14 @@
     return array[Math.floor(Math.random() * array.length)];
   }
 
+  function debounce(fn, ms = 500) {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => fn(...args), ms);
+    };
+  }
+
   let stack = [];
   let acronym = "";
 
@@ -24,7 +32,7 @@
   }
 </script>
 
-<form action="" method="post" on:submit|preventDefault={handleSubmit}>
+<form action="" method="post" on:submit|preventDefault={debounce(handleSubmit)}>
   <label
     >Stack-ronym:
     <input
