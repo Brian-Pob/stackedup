@@ -1,14 +1,8 @@
 <script>
+  import * as _ from 'lodash';
+
   function selectRandom(array) {
     return array[Math.floor(Math.random() * array.length)];
-  }
-
-  function debounce(fn, ms = 500) {
-    let timeout;
-    return (...args) => {
-      clearTimeout(timeout);
-      timeout = setTimeout(() => fn(...args), ms);
-    };
   }
 
   let stack = [];
@@ -32,7 +26,7 @@
   }
 </script>
 
-<form action="" method="post" on:submit|preventDefault={debounce(handleSubmit)}>
+<form action="" method="post" on:submit|preventDefault={_.debounce(handleSubmit, 500)}>
   <label
     >Stack-ronym:
     <input
