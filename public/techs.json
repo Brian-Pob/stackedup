@@ -8,20 +8,32 @@
     "desc": ""
   },
   {
+    "name": "angular",
+    "desc": "A platform for building mobile and desktop web applications."
+  },
+  {
     "name": "astro",
-    "desc": ""
+    "desc": "you're based and a gigachad because you like things fast"
   },
   {
     "name": "bun",
-    "desc": ""
+    "desc": "best mascot hands down"
   },
   {
     "name": "cargo",
-    "desc": ""
+    "desc": "you use rust btw"
   },
   {
     "name": "deno",
     "desc": ""
+  },
+  {
+    "name": "eleventy",
+    "desc": "A simpler static site generator"
+  },
+  {
+    "name": "elm",
+    "desc": "A delightful language for reliable web applications"
   },
   {
     "name": "elysia",
@@ -68,6 +80,10 @@
     "desc": ""
   },
   {
+    "name": "htmx",
+    "desc": "high power tools for html"
+  },
+  {
     "name": "ionic",
     "desc": ""
   },
@@ -77,15 +93,15 @@
   },
   {
     "name": "javascript",
-    "desc": ""
+    "desc": "the worst language ever invented (but you still use it)"
   },
   {
     "name": "jekyll",
-    "desc": ""
+    "desc": "you're probably using minimal mistakes"
   },
   {
     "name": "jquery",
-    "desc": ""
+    "desc": "you escaped from the senior citizen facility"
   },
   {
     "name": "julia",
@@ -101,7 +117,7 @@
   },
   {
     "name": "lua",
-    "desc": ""
+    "desc": "you make roblox games or you use neovim (or both)"
   },
   {
     "name": "maven",
@@ -117,7 +133,7 @@
   },
   {
     "name": "node",
-    "desc": ""
+    "desc": "bun"
   },
   {
     "name": "nuxt",
@@ -137,7 +153,7 @@
   },
   {
     "name": "openprops",
-    "desc": ""
+    "desc": "you kinda like tailwind but you're not a coward"
   },
   {
     "name": "perl",
@@ -149,11 +165,11 @@
   },
   {
     "name": "php",
-    "desc": ""
+    "desc": "you drive a lamborghini"
   },
   {
     "name": "python",
-    "desc": ""
+    "desc": "you're a widdle baby man (or a data scientist)"
   },
   {
     "name": "quasar",
@@ -169,15 +185,19 @@
   },
   {
     "name": "react",
-    "desc": ""
+    "desc": "You like using footguns"
   },
   {
     "name": "redwood",
     "desc": ""
   },
   {
+    "name": "rollup",
+    "desc": "The next-generation ES module bundler"
+  },
+  {
     "name": "rust",
-    "desc": ""
+    "desc": "When you think you're better than everyone else (because it's true)"
   },
   {
     "name": "sapper",
@@ -185,15 +205,15 @@
   },
   {
     "name": "solidjs",
-    "desc": ""
+    "desc": "React, but it makes sense"
   },
   {
     "name": "svelte",
-    "desc": ""
+    "desc": "Web dev can actually be fun"
   },
   {
     "name": "sveltekit",
-    "desc": ""
+    "desc": "Like Next.js, but you actually wanna use it"
   },
 
   {
@@ -202,7 +222,7 @@
   },
   {
     "name": "tailwind",
-    "desc": ""
+    "desc": "CSS classes scare you"
   },
   {
     "name": "tursodb",
@@ -210,7 +230,7 @@
   },
   {
     "name": "typescript",
-    "desc": ""
+    "desc": "It's not a language, it's a vs code extension"
   },
   {
     "name": "unjs",
@@ -222,15 +242,15 @@
   },
   {
     "name": "vite",
-    "desc": ""
+    "desc": "I am le speed 🇫🇷"
   },
   {
     "name": "vue",
-    "desc": ""
+    "desc": "You're like Valve. You don't like things that start with 3"
   },
   {
     "name": "webpack",
-    "desc": ""
+    "desc": "Once you go webpack, you can never go back (even if you want to)"
   },
   {
     "name": "xml",
@@ -250,14 +270,14 @@
   },
   {
     "name": "zed",
-    "desc": ""
+    "desc": "You like EDM. Wait, wrong Zedd."
   },
   {
     "name": "zig",
-    "desc": ""
+    "desc": "you're jarred sumner"
   },
   {
     "name": "zod",
-    "desc": ""
+    "desc": "Typescript while the app is running"
   }
 ]

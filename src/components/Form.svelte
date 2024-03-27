@@ -7,10 +7,12 @@
 
   let stack = [];
   // biome-ignore lint/style/useConst: variable is modified in Svelte binding
-  let acronym = '';
+  let acronym = "";
+  let error = false;
 
   async function handleSubmit(e) {
     stack = [];
+    error = false;
 
     const techs = await fetch(`${window.location.href}techs.json`).then((res) =>
       res.json(),
@@ -21,10 +23,17 @@
         const tech = selectRandom(
           techs.filter((tech) => tech.name.startsWith(letter.toLowerCase())),
         );
-        // techs.splice(techs.indexOf(tech), 1);
+
+        if (!tech) {
+          console.error('No tech found');
+          continue;
+        }
+
         stack = [...stack, tech];
-      } catch (error) {
-        console.error(error);
+      } catch (e) {
+        console.error(e);
+        error = true;
+        return;
       }
     }
   }
@@ -51,9 +60,13 @@
 <div class="results">
   <h2>Your stack:</h2>
   <ul id="results-list">
-    {#each stack as tech}
-      <li>{tech.name}</li>
-    {/each}
+    {#if error}
+      <li>There was an error. Please try again.</li>
+    {:else}
+      {#each stack as tech}
+        <li>{tech.name ?? '*'}</li>
+      {/each}
+    {/if}
   </ul>
 </div>
 
