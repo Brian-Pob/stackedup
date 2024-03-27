@@ -1,18 +1,20 @@
 <script>
-  import * as _ from 'lodash';
+  import * as _ from 'lodash-es';
 
   function selectRandom(array) {
     return array[Math.floor(Math.random() * array.length)];
   }
 
   let stack = [];
-  let acronym = "";
+  // biome-ignore lint/style/useConst: variable is modified in Svelte binding
+  let acronym = '';
 
   async function handleSubmit(e) {
     stack = [];
 
-    let techs = await fetch(`${window.location.href}techs.json`)
-      .then((res) => res.json());
+    const techs = await fetch(`${window.location.href}techs.json`).then((res) =>
+      res.json(),
+    );
 
     for (const letter of acronym) {
       try {
@@ -28,7 +30,11 @@
   }
 </script>
 
-<form action="" method="post" on:submit|preventDefault={_.debounce(handleSubmit, 500)}>
+<form
+  action=""
+  method="post"
+  on:submit|preventDefault={_.debounce(handleSubmit, 500)}
+>
   <label
     >Stack-ronym:
     <input
@@ -67,7 +73,7 @@
 
   input {
     min-width: 25ch;
-    padding-block: .75ch;
+    padding-block: 0.75ch;
     background-color: var(--background);
     border: 1px solid var(--text-1);
   }
