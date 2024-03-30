@@ -18,6 +18,7 @@
     "typescript": "^5.4.3"
   },
   "devDependencies": {
-    "@types/lodash-es": "^4.17.12"
+    "@types/lodash-es": "^4.17.12",
+    "vite-plugin-pwa": "^0.19.7"
   }
 }
