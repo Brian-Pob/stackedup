@@ -1,58 +1,58 @@
 ---
-const title = "StackedUp";
+const title = 'StackedUp';
 const description =
-  "Suggestions for ways to overcomplicate your web app based on your provided acronym.";
-import Form from "../components/Form.svelte";
+  'Suggestions for ways to overcomplicate your web app based on your provided acronym.';
+import Form from '../components/Form.svelte';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <title>{title}</title>
-    <meta name="generator" content={Astro.generator} />
-    <link rel="icon" href="/favicon.ico" sizes="48x48" />
-    <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+    <meta name='generator' content={Astro.generator} />
+    <link rel='icon' href='/favicon.ico' sizes='48x48' />
+    <link rel='icon' href='/favicon.svg' sizes='any' type='image/svg+xml' />
 
-    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" />
-    <link rel="mask-icon" href="/mask-icon.svg" color="#FFFFFF" />
-    <meta name="theme-color" content="#1a1a1a" />
+    <link rel='apple-touch-icon' href='/apple-touch-icon-180x180.png' />
+    <link rel='mask-icon' href='/mask-icon.svg' color='#FFFFFF' />
+    <meta name='theme-color' content='#1a1a1a' />
 
-    <meta property="title" content={title} />
-    <meta property="og:type" content="website" />
+    <meta property='title' content={title} />
+    <meta property='og:type' content='website' />
     <meta
-      property="og:image"
-      content="https://res.cloudinary.com/dvivrw9ml/image/upload/t_OG-image/v1711323815/StackedUp_dpwaqo.jpg"
+      property='og:image'
+      content='https://res.cloudinary.com/dvivrw9ml/image/upload/t_OG-image/v1711323815/StackedUp_dpwaqo.jpg'
     />
-    <meta property="og:url" content="https://stackedup.brianmp.dev" />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property='og:url' content='https://stackedup.brianmp.dev' />
+    <meta property='og:title' content={title} />
+    <meta property='og:description' content={description} />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@brianmpdotdev" />
-    <meta property="twitter:domain" content="brianmp.dev" />
-    <meta property="twitter:url" content="https://stackedup.brianmp.dev" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta name='twitter:site' content='@brianmpdotdev' />
+    <meta property='twitter:domain' content='brianmp.dev' />
+    <meta property='twitter:url' content='https://stackedup.brianmp.dev' />
+    <meta name='twitter:title' content={title} />
+    <meta name='twitter:description' content={description} />
     <meta
-      name="twitter:image"
-      content="https://res.cloudinary.com/dvivrw9ml/image/upload/t_OG-image/v1711323815/StackedUp_dpwaqo.jpg"
+      name='twitter:image'
+      content='https://res.cloudinary.com/dvivrw9ml/image/upload/t_OG-image/v1711323815/StackedUp_dpwaqo.jpg'
     />
-    <meta name="twitter:image:alt" content={title} />
-    <meta name="twitter:creator" content="@brianmpdotdev" />
+    <meta name='twitter:image:alt' content={title} />
+    <meta name='twitter:creator' content='@brianmpdotdev' />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
+      href='https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'
+      rel='stylesheet'
     />
 
     <style>
-      @import url("https://unpkg.com/open-props@1.6.21/open-props.min.css");
-      @import url("https://unpkg.com/open-props@1.6.21/normalize.min.css");
-      @import url("https://unpkg.com/open-props@1.6.21/buttons.min.css");
+      @import url('https://unpkg.com/open-props@1.6.21/open-props.min.css');
+      @import url('https://unpkg.com/open-props@1.6.21/normalize.min.css');
+      @import url('https://unpkg.com/open-props@1.6.21/buttons.min.css');
       :root {
         --background: var(--gradient-9);
       }
@@ -64,7 +64,7 @@ import Form from "../components/Form.svelte";
       }
 
       body {
-        font-family: "Inter", var(--font-sans);
+        font-family: 'Inter', var(--font-sans);
         background: var(--background);
       }
 
@@ -92,27 +92,50 @@ import Form from "../components/Form.svelte";
       li {
         text-transform: capitalize;
       }
+
+      iframe {
+        margin: 0 auto;
+      }
     </style>
   </head>
 
   <body>
     <main>
-      <h1>World's first acronym-driven development tool.</h1>
-      <p>
-        Enter your tech stack acronym and we'll suggest technologies to help you
-        overcomplicate your app!
-      </p>
+      <section>
+        <h1>World's first acronym-driven development tool.</h1>
+        <p>
+          Enter your tech stack acronym and we'll suggest technologies to help
+          you overcomplicate your app!
+        </p>
+      </section>
 
       <Form client:load />
-
-      <p>
-        This is a meme. Don't actually use these suggestions. Or do, I'm not your
-        mom.
-      </p>
-      <p>
-        Don't see a suggestion you like? Submit a PR or issue{" "}
-        <a href="https://github.com/Brian-Pob/stackedup">on GitHub</a>.
-      </p>
+      <hr />
+      <section>
+        <p>
+          This is a meme. Don't actually use these suggestions. Or do, I'm not
+          your mom.
+        </p>
+        <p>
+          Don't see a suggestion you like? Submit a PR or issue{' '}
+          <a href='https://github.com/Brian-Pob/stackedup'>on GitHub</a>.
+        </p>
+      </section>
+      <section>
+        <p>
+          Inspired by "How to OVER Engineer a Website // What is a Tech Stack?"
+          by Fireship
+        </p>
+        <iframe
+          width='560'
+          height='315'
+          src='https://www.youtube-nocookie.com/embed/Sxxw3qtb3_g?si=FsqLa2uvZarVUkd2'
+          title='YouTube video player'
+          frameborder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+          referrerpolicy='strict-origin-when-cross-origin'
+          allowfullscreen></iframe>
+      </section>
     </main>
   </body>
 </html>
