@@ -1,283 +1,299 @@
 [
-  {
-    "name": "11ty",
-    "desc": ""
-  },
-  {
-    "name": "alpinejs",
-    "desc": ""
-  },
-  {
-    "name": "angular",
-    "desc": "A platform for building mobile and desktop web applications."
-  },
-  {
-    "name": "astro",
-    "desc": "you're based and a gigachad because you like things fast"
-  },
-  {
-    "name": "bun",
-    "desc": "best mascot hands down"
-  },
-  {
-    "name": "cargo",
-    "desc": "you use rust btw"
-  },
-  {
-    "name": "deno",
-    "desc": ""
-  },
-  {
-    "name": "eleventy",
-    "desc": "A simpler static site generator"
-  },
-  {
-    "name": "elm",
-    "desc": "A delightful language for reliable web applications"
-  },
-  {
-    "name": "elysia",
-    "desc": ""
-  },
-  {
-    "name": "esbuild",
-    "desc": ""
-  },
-  {
-    "name": "express",
-    "desc": ""
-  },
-  {
-    "name": "fastify",
-    "desc": ""
-  },
-  {
-    "name": "firebase",
-    "desc": ""
-  },
-  {
-    "name": "flutter",
-    "desc": ""
-  },
-  {
-    "name": "flask",
-    "desc": ""
-  },
-  {
-    "name": "gatsby",
-    "desc": ""
-  },
-  {
-    "name": "go",
-    "desc": ""
-  },
-  {
-    "name": "graphql",
-    "desc": ""
-  },
-  {
-    "name": "hugo",
-    "desc": ""
-  },
-  {
-    "name": "htmx",
-    "desc": "high power tools for html"
-  },
-  {
-    "name": "ionic",
-    "desc": ""
-  },
-  {
-    "name": "java",
-    "desc": ""
-  },
-  {
-    "name": "javascript",
-    "desc": "the worst language ever invented (but you still use it)"
-  },
-  {
-    "name": "jekyll",
-    "desc": "you're probably using minimal mistakes"
-  },
-  {
-    "name": "jquery",
-    "desc": "you escaped from the senior citizen facility"
-  },
-  {
-    "name": "julia",
-    "desc": ""
-  },
-  {
-    "name": "kotlin",
-    "desc": ""
-  },
-  {
-    "name": "laravel",
-    "desc": ""
-  },
-  {
-    "name": "lua",
-    "desc": "you make roblox games or you use neovim (or both)"
-  },
-  {
-    "name": "maven",
-    "desc": ""
-  },
-  {
-    "name": "mongodb",
-    "desc": ""
-  },
-  {
-    "name": "next",
-    "desc": ""
-  },
-  {
-    "name": "node",
-    "desc": "bun"
-  },
-  {
-    "name": "nuxt",
-    "desc": ""
-  },
-  {
-    "name": "object oriented programming",
-    "desc": ""
-  },
-  {
-    "name": "objective-c",
-    "desc": ""
-  },
-  {
-    "name": "ocaml",
-    "desc": ""
-  },
-  {
-    "name": "openprops",
-    "desc": "you kinda like tailwind but you're not a coward"
-  },
-  {
-    "name": "perl",
-    "desc": ""
-  },
-  {
-    "name": "phoenix",
-    "desc": ""
-  },
-  {
-    "name": "php",
-    "desc": "you drive a lamborghini"
-  },
-  {
-    "name": "python",
-    "desc": "you're a widdle baby man (or a data scientist)"
-  },
-  {
-    "name": "quasar",
-    "desc": ""
-  },
-  {
-    "name": "qwik",
-    "desc": ""
-  },
-  {
-    "name": "rails",
-    "desc": ""
-  },
-  {
-    "name": "react",
-    "desc": "You like using footguns"
-  },
-  {
-    "name": "redwood",
-    "desc": ""
-  },
-  {
-    "name": "rollup",
-    "desc": "The next-generation ES module bundler"
-  },
-  {
-    "name": "rust",
-    "desc": "When you think you're better than everyone else (because it's true)"
-  },
-  {
-    "name": "sapper",
-    "desc": ""
-  },
-  {
-    "name": "solidjs",
-    "desc": "React, but it makes sense"
-  },
-  {
-    "name": "svelte",
-    "desc": "Web dev can actually be fun"
-  },
-  {
-    "name": "sveltekit",
-    "desc": "Like Next.js, but you actually wanna use it"
-  },
+	{
+		"name": "11ty",
+		"desc": ""
+	},
+	{
+		"name": "alpinejs",
+		"desc": ""
+	},
+	{
+		"name": "angular",
+		"desc": "A platform for building mobile and desktop web applications."
+	},
+	{
+		"name": "astro",
+		"desc": "you're based and a gigachad because you like things fast"
+	},
+	{
+		"name": "bun",
+		"desc": "best mascot hands down"
+	},
+	{
+		"name": "cargo",
+		"desc": "you use rust btw"
+	},
+	{
+		"name": "deno",
+		"desc": ""
+	},
+	{
+		"name": "docker",
+		"desc": "It only works on your machine? Fine, we'll just ship your machine!"
+	},
+	{
+		"name": "eleventy",
+		"desc": "A simpler static site generator"
+	},
+	{
+		"name": "elm",
+		"desc": "A delightful language for reliable web applications"
+	},
+	{
+		"name": "elysia",
+		"desc": ""
+	},
+	{
+		"name": "esbuild",
+		"desc": ""
+	},
+	{
+		"name": "express",
+		"desc": ""
+	},
+	{
+		"name": "fastify",
+		"desc": ""
+	},
+	{
+		"name": "firebase",
+		"desc": ""
+	},
+	{
+		"name": "flutter",
+		"desc": ""
+	},
+	{
+		"name": "flask",
+		"desc": ""
+	},
+	{
+		"name": "gatsby",
+		"desc": ""
+	},
+	{
+		"name": "go",
+		"desc": ""
+	},
+	{
+		"name": "graphql",
+		"desc": ""
+	},
+	{
+		"name": "hugo",
+		"desc": ""
+	},
+	{
+		"name": "htmx",
+		"desc": "high power tools for html"
+	},
+	{
+		"name": "ionic",
+		"desc": ""
+	},
+	{
+		"name": "java",
+		"desc": ""
+	},
+	{
+		"name": "javascript",
+		"desc": "the worst language ever invented (but you still use it)"
+	},
+	{
+		"name": "jekyll",
+		"desc": "you're probably using minimal mistakes"
+	},
+	{
+		"name": "jquery",
+		"desc": "you escaped from the senior citizen facility"
+	},
+	{
+		"name": "julia",
+		"desc": ""
+	},
+	{
+		"name": "kotlin",
+		"desc": ""
+	},
+	{
+		"name": "laravel",
+		"desc": ""
+	},
+	{
+		"name": "lemon squeezy",
+		"desc": "you're too hip to use stripe"
+	},
+	{
+		"name": "less",
+		"desc": ""
+	},
+	{
+		"name": "lua",
+		"desc": "you make roblox games or you use neovim (or both)"
+	},
+	{
+		"name": "maven",
+		"desc": ""
+	},
+	{
+		"name": "mongodb",
+		"desc": ""
+	},
+	{
+		"name": "next",
+		"desc": ""
+	},
+	{
+		"name": "node",
+		"desc": "bun"
+	},
+	{
+		"name": "nuxt",
+		"desc": ""
+	},
+	{
+		"name": "object oriented programming",
+		"desc": ""
+	},
+	{
+		"name": "objective-c",
+		"desc": ""
+	},
+	{
+		"name": "ocaml",
+		"desc": ""
+	},
+	{
+		"name": "openprops",
+		"desc": "you kinda like tailwind but you're not a coward"
+	},
+	{
+		"name": "perl",
+		"desc": ""
+	},
+	{
+		"name": "phoenix",
+		"desc": ""
+	},
+	{
+		"name": "php",
+		"desc": "you drive a lamborghini"
+	},
+	{
+		"name": "python",
+		"desc": "you're a widdle baby man (or a data scientist)"
+	},
+	{
+		"name": "quasar",
+		"desc": ""
+	},
+	{
+		"name": "qwik",
+		"desc": ""
+	},
+	{
+		"name": "rails",
+		"desc": ""
+	},
+	{
+		"name": "react",
+		"desc": "You like using footguns"
+	},
+	{
+		"name": "redwood",
+		"desc": ""
+	},
+	{
+		"name": "rollup",
+		"desc": "The next-generation ES module bundler"
+	},
+	{
+		"name": "rust",
+		"desc": "When you think you're better than everyone else (because it's true)"
+	},
+	{
+		"name": "sapper",
+		"desc": ""
+	},
+	{
+		"name": "solidjs",
+		"desc": "React, but it makes sense"
+	},
+	{
+		"name": "stripe",
+		"desc": ""
+	},
+	{
+		"name": "svelte",
+		"desc": "Web dev can actually be fun"
+	},
+	{
+		"name": "sveltekit",
+		"desc": "Like Next.js, but you actually wanna use it"
+	},
 
-  {
-    "name": "swift",
-    "desc": ""
-  },
-  {
-    "name": "tailwind",
-    "desc": "CSS classes scare you"
-  },
-  {
-    "name": "tursodb",
-    "desc": ""
-  },
-  {
-    "name": "typescript",
-    "desc": "It's not a language, it's a vs code extension"
-  },
-  {
-    "name": "unjs",
-    "desc": ""
-  },
-  {
-    "name": "unocss",
-    "desc": ""
-  },
-  {
-    "name": "vite",
-    "desc": "I am le speed 🇫🇷"
-  },
-  {
-    "name": "vue",
-    "desc": "You're like Valve. You don't like things that start with 3"
-  },
-  {
-    "name": "webpack",
-    "desc": "Once you go webpack, you can never go back (even if you want to)"
-  },
-  {
-    "name": "xml",
-    "desc": ""
-  },
-  {
-    "name": "xstate",
-    "desc": ""
-  },
-  {
-    "name": "yarn",
-    "desc": ""
-  },
-  {
-    "name": "yew",
-    "desc": ""
-  },
-  {
-    "name": "zed",
-    "desc": "You like EDM. Wait, wrong Zedd."
-  },
-  {
-    "name": "zig",
-    "desc": "you're jarred sumner"
-  },
-  {
-    "name": "zod",
-    "desc": "Typescript while the app is running"
-  }
+	{
+		"name": "swift",
+		"desc": ""
+	},
+	{
+		"name": "tailwind",
+		"desc": "CSS classes scare you"
+	},
+	{
+		"name": "tursodb",
+		"desc": ""
+	},
+	{
+		"name": "typescript",
+		"desc": "It's not a language, it's a vs code extension"
+	},
+	{
+		"name": "unjs",
+		"desc": ""
+	},
+	{
+		"name": "unocss",
+		"desc": ""
+	},
+	{
+		"name": "vite",
+		"desc": "I am le speed 🇫🇷"
+	},
+	{
+		"name": "vue",
+		"desc": "You're like Valve. You don't like things that start with 3"
+	},
+	{
+		"name": "webpack",
+		"desc": "Once you go webpack, you can never go back (even if you want to)"
+	},
+	{
+		"name": "xml",
+		"desc": ""
+	},
+	{
+		"name": "xstate",
+		"desc": ""
+	},
+	{
+		"name": "yarn",
+		"desc": ""
+	},
+	{
+		"name": "yew",
+		"desc": ""
+	},
+	{
+		"name": "zed",
+		"desc": "You like EDM. Wait, wrong Zedd."
+	},
+	{
+		"name": "zig",
+		"desc": "you're jarred sumner"
+	},
+	{
+		"name": "zod",
+		"desc": "Typescript while the app is running"
+	}
 ]
